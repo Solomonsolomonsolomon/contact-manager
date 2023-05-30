@@ -1,0 +1,46 @@
+{
+    "contacts":[
+{
+    "first_name":"solomon",
+    "last_name":"Emmanuel",
+    "phone_number":"+2348180610070",
+    "description":"test",
+    "isBlackListed":false
+}
+,
+{
+    "first_name":"sani",
+    "last_name":"Mustapha",
+    "phone_number":"+2348122210070",
+    "description":"test",
+    "isBlackListed":false
+},
+{
+    "first_name":"eche",
+    "last_name":"Emmanuel",
+    "phone_number":"+23481234562231",
+    "description":"test",
+    "isBlackListed":false
+}
+,{
+    "first_name":"tolu",
+    "last_name":"Random",
+    "phone_number":"+2348180610070",
+    "description":"test",
+    "isBlackListed":false
+},{
+    "first_name":"tumi",
+    "last_name":"Adetayo",
+    "phone_number":"+2348180610070",
+    "description":"test",
+    "isBlackListed":false
+},
+{
+    "first_name":"issac",
+    "last_name":"Edoka",
+    "phone_number":"+2348180610070",
+    "description":"test",
+    "isBlackListed":false
+}
+    ]
+}

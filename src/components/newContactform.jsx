@@ -5,14 +5,19 @@ export default function ContactForm({allContacts,setAllContacts}){
 
     function handleSubmit(e){
         e.preventDefault();
+     
        setAllContacts((prev)=>{
+        contact.fullName=`${contact.firstName}${contact.lastName}`
         return[...prev,contact]});
+
+console.log(allContacts)
         setContact({
             firstName:'',
             lastName:'',
             email:'',
             description:'',
-            phoneNumber:''
+            phoneNumber:'',
+            
         })
       }
     const handleClick=(e)=>{
@@ -21,7 +26,7 @@ export default function ContactForm({allContacts,setAllContacts}){
             {...prevState,  [e.target.name]:e.target.value}
            )
         })
-      
+   
 }
 
     let [contact,setContact]=useState({
@@ -29,7 +34,8 @@ export default function ContactForm({allContacts,setAllContacts}){
         lastName:"",
         email:"",
         description:"",
-        phoneNumber:""
+        phoneNumber:"",
+        fullName:``
     })
 
     return(
